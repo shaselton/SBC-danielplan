@@ -1,4 +1,4 @@
-**/js/app.js
-**/js/Controllers/create.js
-**/js/Controllers/progress.js
-**/js/Services/sbc-service.js
+js/app.js
+js/Controllers/create.js
+js/Controllers/progress.js
+js/Services/sbc-service.js

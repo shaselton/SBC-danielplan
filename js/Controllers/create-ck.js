@@ -1,0 +1,1 @@
+(function(){"use strict";angular.module("sbc").controller("CreateCtrl",["$scope",function(e){}])})();
