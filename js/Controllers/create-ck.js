@@ -1,1 +1,1 @@
-(function(){"use strict";angular.module("sbc").controller("CreateCtrl",["$scope",function(e){e.user={};e.createUser=function(){console.log(e.user)}}])})();
+(function(){"use strict";angular.module("sbc").controller("CreateCtrl",["$scope",function(e){e.user={};e.createUser=function(){console.log(e.user)};e.$watch("user.currentWeight + user.heightFeet + user.heightInches",function(){if(!!e.user.currentWeight&&!!e.user.heightFeet&&!!e.user.heightInches){var t=e.user.heightFeet*12+parseInt(e.user.heightInches,10);e.user.bmi=e.user.currentWeight/(t*t)*703}})}])})();
