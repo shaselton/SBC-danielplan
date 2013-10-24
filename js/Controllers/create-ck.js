@@ -1,1 +1,1 @@
-(function(){"use strict";angular.module("sbc").controller("CreateCtrl",["$scope",function(e){}])})();
+(function(){"use strict";angular.module("sbc").controller("CreateCtrl",["$scope",function(e){e.user={};e.createUser=function(){console.log(e.user)}}])})();

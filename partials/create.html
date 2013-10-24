@@ -1,3 +1,168 @@
-create
-<br>
-{{test}}
+<form name='create-user' novalidate>
+
+	<section name="account">
+		<h2 class="section-title">account</h2>
+		<div class="group-title">Login</div>
+		<div class='item'>
+			<label>Username
+				<input type='text' ng-model='user.username' name='username' placeholder='Login' required />
+			</label>
+		</div>
+
+		<div class='item'>
+			<label>Password
+				<input type='password' ng-model='user.password' name='password' placeholder='Password' required />
+			</label>
+		</div>
+
+		<div class='item'>
+			<label>Confirm Password
+				<input type='password' ng-model='user.confirm' name='password' placeholder='Confrim Passord' required />
+			</label>
+		</div>
+
+		<div class="group-title">Name</div>
+		<div class='item'>
+			<label>First Name
+				<input type='text' ng-model='user.firstName' name='firstName' placeholder='First' />
+			</label>
+		</div>
+
+		<div class='item'>
+			<label>Last Name
+				<input type='text' ng-model='user.lastName' name='lastName' placeholder='Last' />
+			</label>
+		</div>
+
+		<div class="group-title">Email</div>
+		<div class='item'>
+			<label>Email
+				<input type='email' ng-model='user.email' name='email' placeholder='email' required />
+			</label>
+		</div>
+
+		<div class="group-title">Picture</div>
+		<div class='item'>
+			<label>Upload Picture
+				<input type='file' ng-model='user.picture' name='picture' required />
+			</label>
+		</div>
+	</section>
+
+	<section name="profile">
+		<h2 class="section-title">profile</h2>
+		<div class="group-title">Fitness Profile - Weight</div>
+		<div class='item'>
+			<label>Current Wight
+				<input type='input' ng-model='user.currentWeight' name='currentWeight' required />
+			</label>
+		</div>
+
+		<div class='item'>
+			<label>Goal Weight
+				<input type='input' ng-model='user.goalWeight' name='goalWeight' required />
+			</label>
+		</div>
+
+		<div class='item'>
+			<label>Current Waist Size
+				<input type='input' ng-model='user.waistSize' name='waistSize' required />
+			</label>
+		</div>
+
+		<div class='item'>
+			<label>BMI
+				<input type='input' ng-model='user.bmi' name='bmi' required disabled/>
+			</label>
+		</div>
+
+		<div class="group-title">Fitness Profile</div>
+		<!--
+		<div class='item'>
+			<label>Units
+				<input type='input' ng-model='user.unitMeasurement' name='unitMeasurement' placeholder='Standard U.S.' required />
+			</label>
+		</div>
+		-->
+
+		<div class='item'>
+			<label>Height
+				<input type='input' ng-model='user.heightFeet' name='heightFeet' required />
+			</label>
+			<label>Inches
+				<input type='input' ng-model='user.heightInches' name='heightInches' required />
+			</label>
+		</div>
+
+		<div class='item'>
+			<label>Gender
+				<input type='input' ng-model='user.gender' name='gender' required/>
+			</label>
+		</div>
+
+		<div class='item'>
+			<label>Birthdate
+				<input type='input' ng-model='user.birthday' name='gender' placeholder='MM/DD/YYYY' required/>
+			</label>
+		</div>
+
+		<div class="group-title">Faith</div>
+		<div class='item'>
+			<label>Faith
+			</label>
+		</div>
+
+		<div class="group-title">Focus</div>
+		<div class='item'>
+			<label>Focus
+			</label>
+		</div>
+
+		<div class='item'>
+			<label>Energy
+			</label>
+		</div>
+
+		<div class="group-title">Focus - Sleep</div>
+		<div class='item'>
+			<label>Hours Sleep
+			</label>
+		</div>
+
+		<div class="group-title">Food Servings Per Day</div>
+		<div class='item'>
+			<label>Fruit
+			</label>
+		</div>
+
+		<div class='item'>
+			<label>Lean Protein
+			</label>
+		</div>
+
+		<div class='item'>
+			<label>Whole Grains
+			</label>
+		</div>
+
+		<div class="group-title">Hours Exercise Days Per Week</div>
+		<div class='item'>
+			<label>Aerobic
+			</label>
+		</div>
+
+		<div class='item'>
+			<label>Strength
+			</label>
+		</div>
+
+
+	</section>
+
+	<button name='create-user' ng-click="createUser()">Create User</button>
+
+
+</form>
+
+
+
