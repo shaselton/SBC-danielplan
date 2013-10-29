@@ -1,5 +1,5 @@
 
-<form name='create-user' novalidate>
+<form name='newUser' novalidate>
 
 	<section name="account">
 		<h2 class="section-title">account</h2>
@@ -12,13 +12,13 @@
 
 		<div class='item'>
 			<label>Password
-				<input type='password' ng-model='user.password' name='password' placeholder='Password' required />
+				<input type='password' class='pword' ng-model='user.password' name='password' placeholder='Password' required />
 			</label>
 		</div>
 
 		<div class='item'>
 			<label>Confirm Password
-				<input type='password' ng-model='user.confirm' name='password' placeholder='Confrim Passord' required />
+				<input type='password' class="pword" ng-model='user.confirm' name='password' placeholder='Confrim Password' required />
 			</label>
 		</div>
 
