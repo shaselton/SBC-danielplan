@@ -1,1 +1,1 @@
-(function(){"use strict";angular.module("sbc").factory("SbcService",[function(){return{}}])})();
+(function(){"use strict";angular.module("sbc").factory("SbcService",[function(){return{getUserWeight:function(){return 200}}}])})();

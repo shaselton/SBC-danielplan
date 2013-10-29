@@ -1,1 +1,126 @@
-progress
+
+<form name='userEntry' novalidate>
+
+
+	<section name="track">
+		<h2 class="section-title">track</h2>
+		<div class="group-title">Day</div>
+		<div class='item'>
+			<label>Date
+				<input type='text' ng-model='user.date' name='date' placeholder='MM/DD/YYYY' required />
+			</label>
+		</div>
+
+		<div class="group-title">Food</div>
+		<div class='item'>
+			<label>Fruits/Vegs
+				<span>{{user.dailyFruits}}</span>
+				<button ng-click="minus('dailyFruits')">-</button>
+				<button ng-click="add('dailyFruits')">+</button>
+			</label>
+		</div>
+
+		<div class='item'>
+			<label>Lean Protein
+				<span>{{user.dailyLeanProtein}}</span>
+				<button ng-click="minus('dailyLeanProtein')">-</button>
+				<button ng-click="add('dailyLeanProtein')">+</button>
+			</label>
+		</div>
+
+		<div class='item'>
+			<label>Whole Grains
+				<span>{{user.dailyWholeGrains}}</span>
+				<button ng-click="minus('dailyWholeGrains')">-</button>
+				<button ng-click="add('dailyWholeGrains')">+</button>
+			</label>
+		</div>
+
+		<div class='item'>
+			<label>Other
+				<span>{{user.dailyOther}}</span>
+				<button ng-click="minus('dailyOther')">-</button>
+				<button ng-click="add('dailyOther')">+</button>
+			</label>
+		</div>
+
+		<div class="group-title">Faith</div>
+		<div class='item'>
+			<label>Faith
+			</label>
+		</div>
+
+		<div class="group-title">Fitness</div>
+		<div class='item'>
+			<label>Weight
+				<span>{{user.dailyWeight}}</span>
+				<button ng-click="minus('dailyWeight')">-</button>
+				<button ng-click="add('dailyWeight')">+</button>
+			</label>
+		</div>
+
+
+		<div class='item'>
+			<label>Aerobic Exercise
+				<span>{{user.dailyAerobic}}</span>
+				<button ng-click="minus('dailyAerobic')">-</button>
+				<button ng-click="add('dailyAerobic')">+</button>
+			</label>
+		</div>
+
+		<div class='item'>
+			<label>Strength Exercise
+				<span>{{user.dailyStrength}}</span>
+				<button ng-click="minus('dailyStrength')">-</button>
+				<button ng-click="add('dailyStrength')">+</button>
+			</label>
+		</div>
+
+		<div class='item'>
+			<label>Energy
+			</label>
+		</div>
+
+		<div class="group-title">Focus</div>
+		<div class='item'>
+			<label>Focus
+			</label>
+		</div>
+
+		<div class='item'>
+			<label>Hours of Sleep
+				<span>{{user.dailySleep}}</span>
+				<button ng-click="minus('dailySleep')">-</button>
+				<button ng-click="add('dailySleep')">+</button>
+			</label>
+		</div>
+
+		<div class="group-title">Note</div>
+		<div class='item'>
+			<label>Note
+				<textarea ng-model="user.note"></textarea>
+			</label>
+		</div>
+
+		<div class="group-title">Picture</div>
+		<div class='item'>
+			<label>Upload Picture
+				<input type='file' ng-model='user.picture' name='picture' required />
+			</label>
+		</div>
+	</section>
+
+	<section class='graphs'>
+		<div google-chart chart="weightChart" class='graph'></div>
+		<div google-chart chart="bmiChart" class='graph'></div>
+		<div google-chart chart="faithChart" class='graph'></div>
+		<div google-chart chart="pieChart" class='graph'></div>
+	</section>
+
+	<button name='create-user' ng-click="createUser()">Create User</button>
+
+
+</form>
+
+
+

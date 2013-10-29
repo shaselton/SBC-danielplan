@@ -127,45 +127,57 @@
 		<div class="group-title">Focus - Sleep</div>
 		<div class='item'>
 			<label>Hours Sleep
+				<span>{{user.sleep}}</span>
+				<button ng-click="minus('sleep')">-</button>
+				<button ng-click="add('sleep')">+</button>
 			</label>
 		</div>
 
 		<div class="group-title">Food Servings Per Day</div>
 		<div class='item'>
 			<label>Fruit
+				<span>{{user.fruit}}</span>
+				<button ng-click="minus('fruit')">-</button>
+				<button ng-click="add('fruit')">+</button>
 			</label>
 		</div>
 
 		<div class='item'>
 			<label>Lean Protein
+				<span>{{user.leanProtein}}</span>
+				<button ng-click="minus('leanProtein')">-</button>
+				<button ng-click="add('leanProtein')">+</button>
 			</label>
 		</div>
 
 		<div class='item'>
 			<label>Whole Grains
+				<span>{{user.wholeGrains}}</span>
+				<button ng-click="minus('wholeGrains')">-</button>
+				<button ng-click="add('wholeGrains')">+</button>
 			</label>
 		</div>
-
 		<div class="group-title">Hours Exercise Days Per Week</div>
 		<div class='item'>
 			<label>Aerobic
+				<span>{{user.aerobic}}</span>
+				<button ng-click="minus('aerobic')">-</button>
+				<button ng-click="add('aerobic')">+</button>
 			</label>
 		</div>
 
 		<div class='item'>
 			<label>Strength
+				<span>{{user.strength}}</span>
+				<button ng-click="minus('strength')">-</button>
+				<button ng-click="add('strength')">+</button>
 			</label>
 		</div>
 
 
 	</section>
 
-	<section class='graphs'>
-		<div google-chart chart="weightChart" class='graph'></div>
-		<div google-chart chart="bmiChart" class='graph'></div>
-		<div google-chart chart="faithChart" class='graph'></div>
-		<div google-chart chart="pieChart" class='graph'></div>
-	</section>
+	
 
 	<button name='create-user' ng-click="createUser()">Create User</button>
 
