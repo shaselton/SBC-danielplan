@@ -1,6 +1,6 @@
 ;(function(){
 	'use strict';
-	angular.module( 'sbc', [ 'ngRoute' ] ).
+	angular.module( 'sbc', [ 'ngRoute', 'googlechart' ] ).
 	config(['$routeProvider', function($routeProvider) {
 		$routeProvider.
 			when('/create', {templateUrl: 'partials/create.html',   controller: 'CreateCtrl'}).
