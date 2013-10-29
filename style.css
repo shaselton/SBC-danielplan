@@ -1,0 +1,347 @@
+/**JQUERYUI***/
+#popupcal .ui-datepicker-header { width:100%;}
+#popupcal .ui-helper-hidden { display: none; }
+#popupcal .ui-helper-hidden-accessible { position: absolute !important; clip: rect(1px 1px 1px 1px); clip: rect(1px,1px,1px,1px); }
+#popupcal .ui-helper-reset { margin: 0; padding: 0; border: 0; outline: 0; line-height: 1.3; text-decoration: none; font-size: 100%; list-style: none; }
+#popupcal .ui-helper-clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+#popupcal .ui-helper-clearfix { display: inline-block; }
+#popupcal .ui-helper-zfix { width: 100%; height: 100%; top: 0; left: 0; position: absolute; opacity: 0; filter:Alpha(Opacity=0); }
+#popupcal .ui-state-disabled { cursor: default !important; }
+#popupcal .ui-icon { display: block; text-indent: -99999px; overflow: hidden; background-repeat: no-repeat; }
+#popupcal .ui-widget-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+#popupcal .ui-widget { font-family: segoe ui,#popupcal .rial,#popupcal .ans-serif; font-size: 1.1em; }
+#popupcal .ui-widget .ui-widget { font-size: 1em; }
+#popupcal .ui-widget input,#popupcal .ui-widget select,#popupcal .ui-widget textarea,#popupcal .ui-widget button { font-family: segoe ui,#popupcal .rial,#popupcal .ans-serif; font-size: 1em; }
+#popupcal .ui-widget-content { border: 1px solid #dfd9c3; background: #f5f3e5 url(/site/provider/siteprovider/danielplan.com/templates/The%20Daniel%20Plan/south-street/images/ui-bg_highlight-hard_100_f5f3e5_1x100.png) 50% top repeat-x; color: #312e25; }
+#popupcal .ui-widget-content a { color: #312e25; }
+#popupcal .ui-widget-header { border: 1px solid #d4ccb0; background: #ece8da url(/site/provider/siteprovider/danielplan.com/templates/The%20Daniel%20Plan/south-street/images/ui-bg_gloss-wave_100_ece8da_500x100.png) 50% 50% repeat-x; color: #433f38; font-weight: bold; }
+#popupcal .ui-widget-header a { color: #433f38; }
+#popupcal .ui-state-default,#popupcal .ui-widget-content .ui-state-default,#popupcal .ui-widget-header .ui-state-default { border: 1px solid #327e04; background: #459e00 url(/site/provider/siteprovider/danielplan.com/templates/The%20Daniel%20Plan/south-street/images/ui-bg_highlight-hard_15_459e00_1x100.png) 50% 50% repeat-x; font-weight: bold; color: #ffffff; }
+#popupcal .ui-state-default a,#popupcal .ui-state-default a:link,#popupcal .ui-state-default a:visited { color: #ffffff; text-decoration: none; }
+#popupcal .ui-state-hover,#popupcal .ui-widget-content .ui-state-hover,#popupcal .ui-widget-header .ui-state-hover,#popupcal .ui-state-focus,#popupcal .ui-widget-content .ui-state-focus,#popupcal .ui-widget-header .ui-state-focus { border: 1px solid #327e04; background: #67b021 url(/site/provider/siteprovider/danielplan.com/templates/The%20Daniel%20Plan/south-street/images/ui-bg_highlight-soft_25_67b021_1x100.png) 50% 50% repeat-x; font-weight: bold; color: #ffffff; }
+#popupcal .ui-state-hover a,#popupcal .ui-state-hover a:hover { color: #ffffff; text-decoration: none; }
+#popupcal .ui-state-active,#popupcal .ui-widget-content .ui-state-active,#popupcal .ui-widget-header .ui-state-active { border: 1px solid #d4ccb0; background: #fafaf4 url(/site/provider/siteprovider/danielplan.com/templates/The%20Daniel%20Plan/south-street/images/ui-bg_highlight-hard_100_fafaf4_1x100.png) 50% 50% repeat-x; font-weight: bold; color: #459e00; }
+#popupcal .ui-state-active a,#popupcal .ui-state-active a:link,#popupcal .ui-state-active a:visited { color: #459e00; text-decoration: none; }
+#popupcal .ui-widget :active { outline: none; }
+#popupcal .ui-state-highlight,#popupcal .ui-widget-content .ui-state-highlight,#popupcal .ui-widget-header .ui-state-highlight  {border: 1px solid #e8e1b5; background: #fcf0ba url(/site/provider/siteprovider/danielplan.com/templates/The%20Daniel%20Plan/south-street/images/ui-bg_glass_55_fcf0ba_1x400.png) 50% 50% repeat-x; color: #363636; }
+#popupcal .ui-state-highlight a,#popupcal .ui-widget-content .ui-state-highlight a,.ui-widget-header .ui-state-highlight a { color: #363636; }
+#popupcal .ui-state-error,#popupcal .ui-widget-content .ui-state-error,#popupcal .ui-widget-header .ui-state-error {border: 1px solid #e3a345; background: #ffedad url(/site/provider/siteprovider/danielplan.com/templates/The%20Daniel%20Plan/south-street/images/ui-bg_highlight-soft_95_ffedad_1x100.png) 50% top repeat-x; color: #cd5c0a; }
+#popupcal .ui-state-error a,#popupcal .ui-widget-content .ui-state-error a,#popupcal .ui-widget-header .ui-state-error a { color: #cd5c0a; }
+#popupcal .ui-state-error-text,#popupcal .ui-widget-content .ui-state-error-text,#popupcal .ui-widget-header .ui-state-error-text { color: #cd5c0a; }
+#popupcal .ui-priority-primary,#popupcal .ui-widget-content .ui-priority-primary,#popupcal .ui-widget-header .ui-priority-primary { font-weight: bold; }
+#popupcal .ui-priority-secondary,#popupcal .ui-widget-content .ui-priority-secondary,#popupcal ..ui-widget-header .ui-priority-secondary { opacity: .7; filter:Alpha(Opacity=70); font-weight: normal; }
+#popupcal .ui-state-disabled,#popupcal .ui-widget-content .ui-state-disabled,#popupcal .ui-widget-header .ui-state-disabled { opacity: .35; filter:Alpha(Opacity=35); background-image: none; }
+#popupcal .ui-icon { width: 16px; height: 16px; background-image: url(/site/provider/siteprovider/danielplan.com/templates/The%20Daniel%20Plan/south-street/images/ui-icons_808080_256x240.png); }
+#popupcal .ui-widget-content .ui-icon {background-image: url(/site/provider/siteprovider/danielplan.com/templates/The%20Daniel%20Plan/south-street/images/ui-icons_808080_256x240.png); }
+#popupcal .ui-widget-header .ui-icon {background-image: url(/site/provider/siteprovider/danielplan.com/templates/The%20Daniel%20Plan/south-street/images/ui-icons_847e71_256x240.png); }
+#popupcal .ui-state-default .ui-icon { background-image: url(/site/provider/siteprovider/danielplan.com/templates/The%20Daniel%20Plan/south-street/images/ui-icons_eeeeee_256x240.png); }
+#popupcal .ui-state-hover .ui-icon,#popupcal .ui-state-focus .ui-icon {background-image: url(/site/provider/siteprovider/danielplan.com/templates/The%20Daniel%20Plan/south-street/images/ui-icons_ffffff_256x240.png); }
+#popupcal .ui-state-active .ui-icon {background-image: url(/site/provider/siteprovider/danielplan.com/templates/The%20Daniel%20Plan/south-street/images/ui-icons_8dc262_256x240.png); }
+#popupcal .ui-state-highlight .ui-icon {background-image: url(/site/provider/siteprovider/danielplan.com/templates/The%20Daniel%20Plan/south-street/images/ui-icons_8dc262_256x240.png); }
+#popupcal .ui-state-error .ui-icon,#popupcal .ui-state-error-text .ui-icon {background-image: url(/site/provider/siteprovider/danielplan.com/templates/The%20Daniel%20Plan/south-street/images/ui-icons_cd0a0a_256x240.png); }
+#popupcal .ui-icon-carat-1-n { background-position: 0 0; }
+#popupcal .ui-icon-carat-1-ne { background-position: -16px 0; }
+#popupcal .ui-icon-carat-1-e { background-position: -32px 0; }
+#popupcal .ui-icon-carat-1-se { background-position: -48px 0; }
+#popupcal .ui-icon-carat-1-s { background-position: -64px 0; }
+#popupcal .ui-icon-carat-1-sw { background-position: -80px 0; }
+#popupcal .ui-icon-carat-1-w { background-position: -96px 0; }
+#popupcal .ui-icon-carat-1-nw { background-position: -112px 0; }
+#popupcal .ui-icon-carat-2-n-s { background-position: -128px 0; }
+#popupcal .ui-icon-carat-2-e-w { background-position: -144px 0; }
+#popupcal .ui-icon-triangle-1-n { background-position: 0 -16px; }
+#popupcal .ui-icon-triangle-1-ne { background-position: -16px -16px; }
+#popupcal .ui-icon-triangle-1-e { background-position: -32px -16px; }
+#popupcal .ui-icon-triangle-1-se { background-position: -48px -16px; }
+#popupcal .ui-icon-triangle-1-s { background-position: -64px -16px; }
+#popupcal .ui-icon-triangle-1-sw { background-position: -80px -16px; }
+#popupcal .ui-icon-triangle-1-w { background-position: -96px -16px; }
+#popupcal .ui-icon-triangle-1-nw { background-position: -112px -16px; }
+#popupcal .ui-icon-triangle-2-n-s { background-position: -128px -16px; }
+#popupcal .ui-icon-triangle-2-e-w { background-position: -144px -16px; }
+#popupcal .ui-icon-arrow-1-n { background-position: 0 -32px; }
+#popupcal .ui-icon-arrow-1-ne { background-position: -16px -32px; }
+#popupcal .ui-icon-arrow-1-e { background-position: -32px -32px; }
+#popupcal .ui-icon-arrow-1-se { background-position: -48px -32px; }
+#popupcal .ui-icon-arrow-1-s { background-position: -64px -32px; }
+#popupcal .ui-icon-arrow-1-sw { background-position: -80px -32px; }
+#popupcal .ui-icon-arrow-1-w { background-position: -96px -32px; }
+#popupcal .ui-icon-arrow-1-nw { background-position: -112px -32px; }
+#popupcal .ui-icon-arrow-2-n-s { background-position: -128px -32px; }
+#popupcal .ui-icon-arrow-2-ne-sw { background-position: -144px -32px; }
+#popupcal .ui-icon-arrow-2-e-w { background-position: -160px -32px; }
+#popupcal .ui-icon-arrow-2-se-nw { background-position: -176px -32px; }
+#popupcal .ui-icon-arrowstop-1-n { background-position: -192px -32px; }
+#popupcal .ui-icon-arrowstop-1-e { background-position: -208px -32px; }
+#popupcal .ui-icon-arrowstop-1-s { background-position: -224px -32px; }
+#popupcal .ui-icon-arrowstop-1-w { background-position: -240px -32px; }
+#popupcal .ui-icon-arrowthick-1-n { background-position: 0 -48px; }
+#popupcal .ui-icon-arrowthick-1-ne { background-position: -16px -48px; }
+#popupcal .ui-icon-arrowthick-1-e { background-position: -32px -48px; }
+#popupcal .ui-icon-arrowthick-1-se { background-position: -48px -48px; }
+#popupcal .ui-icon-arrowthick-1-s { background-position: -64px -48px; }
+#popupcal .ui-icon-arrowthick-1-sw { background-position: -80px -48px; }
+#popupcal .ui-icon-arrowthick-1-w { background-position: -96px -48px; }
+#popupcal .ui-icon-arrowthick-1-nw { background-position: -112px -48px; }
+#popupcal .ui-icon-arrowthick-2-n-s { background-position: -128px -48px; }
+#popupcal .ui-icon-arrowthick-2-ne-sw { background-position: -144px -48px; }
+#popupcal .ui-icon-arrowthick-2-e-w { background-position: -160px -48px; }
+#popupcal .ui-icon-arrowthick-2-se-nw { background-position: -176px -48px; }
+#popupcal .ui-icon-arrowthickstop-1-n { background-position: -192px -48px; }
+#popupcal .ui-icon-arrowthickstop-1-e { background-position: -208px -48px; }
+#popupcal .ui-icon-arrowthickstop-1-s { background-position: -224px -48px; }
+#popupcal .ui-icon-arrowthickstop-1-w { background-position: -240px -48px; }
+#popupcal .ui-icon-arrowreturnthick-1-w { background-position: 0 -64px; }
+#popupcal .ui-icon-arrowreturnthick-1-n { background-position: -16px -64px; }
+#popupcal .ui-icon-arrowreturnthick-1-e { background-position: -32px -64px; }
+#popupcal .ui-icon-arrowreturnthick-1-s { background-position: -48px -64px; }
+#popupcal .ui-icon-arrowreturn-1-w { background-position: -64px -64px; }
+#popupcal .ui-icon-arrowreturn-1-n { background-position: -80px -64px; }
+#popupcal .ui-icon-arrowreturn-1-e { background-position: -96px -64px; }
+#popupcal .ui-icon-arrowreturn-1-s { background-position: -112px -64px; }
+#popupcal .ui-icon-arrowrefresh-1-w { background-position: -128px -64px; }
+#popupcal .ui-icon-arrowrefresh-1-n { background-position: -144px -64px; }
+#popupcal .ui-icon-arrowrefresh-1-e { background-position: -160px -64px; }
+#popupcal .ui-icon-arrowrefresh-1-s { background-position: -176px -64px; }
+#popupcal .ui-icon-arrow-4 { background-position: 0 -80px; }
+#popupcal .ui-icon-arrow-4-diag { background-position: -16px -80px; }
+#popupcal .ui-icon-extlink { background-position: -32px -80px; }
+#popupcal .ui-icon-newwin { background-position: -48px -80px; }
+#popupcal .ui-icon-refresh { background-position: -64px -80px; }
+#popupcal .ui-icon-shuffle { background-position: -80px -80px; }
+#popupcal .ui-icon-transfer-e-w { background-position: -96px -80px; }
+#popupcal .ui-icon-transferthick-e-w { background-position: -112px -80px; }
+#popupcal .ui-icon-folder-collapsed { background-position: 0 -96px; }
+#popupcal .ui-icon-folder-open { background-position: -16px -96px; }
+#popupcal .ui-icon-document { background-position: -32px -96px; }
+#popupcal .ui-icon-document-b { background-position: -48px -96px; }
+#popupcal .ui-icon-note { background-position: -64px -96px; }
+#popupcal .ui-icon-mail-closed { background-position: -80px -96px; }
+#popupcal .ui-icon-mail-open { background-position: -96px -96px; }
+#popupcal .ui-icon-suitcase { background-position: -112px -96px; }
+#popupcal .ui-icon-comment { background-position: -128px -96px; }
+#popupcal .ui-icon-person { background-position: -144px -96px; }
+#popupcal .ui-icon-print { background-position: -160px -96px; }
+#popupcal .ui-icon-trash { background-position: -176px -96px; }
+#popupcal .ui-icon-locked { background-position: -192px -96px; }
+#popupcal .ui-icon-unlocked { background-position: -208px -96px; }
+#popupcal .ui-icon-bookmark { background-position: -224px -96px; }
+#popupcal .ui-icon-tag { background-position: -240px -96px; }
+#popupcal .ui-icon-home { background-position: 0 -112px; }
+#popupcal .ui-icon-flag { background-position: -16px -112px; }
+#popupcal .ui-icon-calendar { background-position: -32px -112px; }
+#popupcal .ui-icon-cart { background-position: -48px -112px; }
+#popupcal .ui-icon-pencil { background-position: -64px -112px; }
+#popupcal .ui-icon-clock { background-position: -80px -112px; }
+#popupcal .ui-icon-disk { background-position: -96px -112px; }
+#popupcal .ui-icon-calculator { background-position: -112px -112px; }
+#popupcal .ui-icon-zoomin { background-position: -128px -112px; }
+#popupcal .ui-icon-zoomout { background-position: -144px -112px; }
+#popupcal .ui-icon-search { background-position: -160px -112px; }
+#popupcal .ui-icon-wrench { background-position: -176px -112px; }
+#popupcal .ui-icon-gear { background-position: -192px -112px; }
+#popupcal .ui-icon-heart { background-position: -208px -112px; }
+#popupcal .ui-icon-star { background-position: -224px -112px; }
+#popupcal .ui-icon-link { background-position: -240px -112px; }
+#popupcal .ui-icon-cancel { background-position: 0 -128px; }
+#popupcal .ui-icon-plus { background-position: -16px -128px; }
+#popupcal .ui-icon-plusthick { background-position: -32px -128px; }
+#popupcal .ui-icon-minus { background-position: -48px -128px; }
+#popupcal .ui-icon-minusthick { background-position: -64px -128px; }
+#popupcal .ui-icon-close { background-position: -80px -128px; }
+#popupcal .ui-icon-closethick { background-position: -96px -128px; }
+#popupcal .ui-icon-key { background-position: -112px -128px; }
+#popupcal .ui-icon-lightbulb { background-position: -128px -128px; }
+#popupcal .ui-icon-scissors { background-position: -144px -128px; }
+#popupcal .ui-icon-clipboard { background-position: -160px -128px; }
+#popupcal .ui-icon-copy { background-position: -176px -128px; }
+#popupcal .ui-icon-contact { background-position: -192px -128px; }
+#popupcal .ui-icon-image { background-position: -208px -128px; }
+#popupcal .ui-icon-video { background-position: -224px -128px; }
+#popupcal .ui-icon-script { background-position: -240px -128px; }
+#popupcal .ui-icon-alert { background-position: 0 -144px; }
+#popupcal .ui-icon-info { background-position: -16px -144px; }
+#popupcal .ui-icon-notice { background-position: -32px -144px; }
+#popupcal .ui-icon-help { background-position: -48px -144px; }
+#popupcal .ui-icon-check { background-position: -64px -144px; }
+#popupcal .ui-icon-bullet { background-position: -80px -144px; }
+#popupcal .ui-icon-radio-off { background-position: -96px -144px; }
+#popupcal .ui-icon-radio-on { background-position: -112px -144px; }
+#popupcal .ui-icon-pin-w { background-position: -128px -144px; }
+#popupcal .ui-icon-pin-s { background-position: -144px -144px; }
+#popupcal .ui-icon-play { background-position: 0 -160px; }
+#popupcal .ui-icon-pause { background-position: -16px -160px; }
+#popupcal .ui-icon-seek-next { background-position: -32px -160px; }
+#popupcal .ui-icon-seek-prev { background-position: -48px -160px; }
+#popupcal .ui-icon-seek-end { background-position: -64px -160px; }
+#popupcal .ui-icon-seek-start { background-position: -80px -160px; }
+#popupcal .ui-icon-seek-first { background-position: -80px -160px; }
+#popupcal .ui-icon-stop { background-position: -96px -160px; }
+#popupcal .ui-icon-eject { background-position: -112px -160px; }
+#popupcal .ui-icon-volume-off { background-position: -128px -160px; }
+#popupcal .ui-icon-volume-on { background-position: -144px -160px; }
+#popupcal .ui-icon-power { background-position: 0 -176px; }
+#popupcal .ui-icon-signal-diag { background-position: -16px -176px; }
+#popupcal .ui-icon-signal { background-position: -32px -176px; }
+#popupcal .ui-icon-battery-0 { background-position: -48px -176px; }
+#popupcal .ui-icon-battery-1 { background-position: -64px -176px; }
+#popupcal .ui-icon-battery-2 { background-position: -80px -176px; }
+#popupcal .ui-icon-battery-3 { background-position: -96px -176px; }
+#popupcal .ui-icon-circle-plus { background-position: 0 -192px; }
+#popupcal .ui-icon-circle-minus { background-position: -16px -192px; }
+#popupcal .ui-icon-circle-close { background-position: -32px -192px; }
+#popupcal .ui-icon-circle-triangle-e { background-position: -48px -192px; }
+#popupcal .ui-icon-circle-triangle-s { background-position: -64px -192px; }
+#popupcal .ui-icon-circle-triangle-w { background-position: -80px -192px; }
+#popupcal .ui-icon-circle-triangle-n { background-position: -96px -192px; }
+#popupcal .ui-icon-circle-arrow-e { background-position: -112px -192px; }
+#popupcal .ui-icon-circle-arrow-s { background-position: -128px -192px; }
+#popupcal .ui-icon-circle-arrow-w { background-position: -144px -192px; }
+#popupcal .ui-icon-circle-arrow-n { background-position: -160px -192px; }
+#popupcal .ui-icon-circle-zoomin { background-position: -176px -192px; }
+#popupcal .ui-icon-circle-zoomout { background-position: -192px -192px; }
+#popupcal .ui-icon-circle-check { background-position: -208px -192px; }
+#popupcal .ui-icon-circlesmall-plus { background-position: 0 -208px; }
+#popupcal .ui-icon-circlesmall-minus { background-position: -16px -208px; }
+#popupcal .ui-icon-circlesmall-close { background-position: -32px -208px; }
+#popupcal .ui-icon-squaresmall-plus { background-position: -48px -208px; }
+#popupcal .ui-icon-squaresmall-minus { background-position: -64px -208px; }
+#popupcal .ui-icon-squaresmall-close { background-position: -80px -208px; }
+#popupcal .ui-icon-grip-dotted-vertical { background-position: 0 -224px; }
+#popupcal .ui-icon-grip-dotted-horizontal { background-position: -16px -224px; }
+#popupcal .ui-icon-grip-solid-vertical { background-position: -32px -224px; }
+#popupcal .ui-icon-grip-solid-horizontal { background-position: -48px -224px; }
+#popupcal .ui-icon-gripsmall-diagonal-se { background-position: -64px -224px; }
+#popupcal .ui-icon-grip-diagonal-se { background-position: -80px -224px; }
+#popupcal .ui-corner-all,#popupcal .ui-corner-top,#popupcal .ui-corner-left,#popupcal .ui-corner-tl { -moz-border-radius-topleft: 6px; -webkit-border-top-left-radius: 6px; -khtml-border-top-left-radius: 6px; border-top-left-radius: 6px; }
+#popupcal .ui-corner-all,#popupcal .ui-corner-top,#popupcal .ui-corner-right,#popupcal .ui-corner-tr { -moz-border-radius-topright: 6px; -webkit-border-top-right-radius: 6px; -khtml-border-top-right-radius: 6px; border-top-right-radius: 6px; }
+#popupcal .ui-corner-all,#popupcal .ui-corner-bottom,#popupcal .ui-corner-left,#popupcal .ui-corner-bl { -moz-border-radius-bottomleft: 6px; -webkit-border-bottom-left-radius: 6px; -khtml-border-bottom-left-radius: 6px; border-bottom-left-radius: 6px; }
+#popupcal .ui-corner-all,#popupcal .ui-corner-bottom,#popupcal .ui-corner-right,#popupcal .ui-corner-br { -moz-border-radius-bottomright: 6px; -webkit-border-bottom-right-radius: 6px; -khtml-border-bottom-right-radius: 6px; border-bottom-right-radius: 6px; }
+#popupcal .ui-widget-overlay { background: #2b2922 url(/site/provider/siteprovider/danielplan.com/templates/The%20Daniel%20Plan/south-street/images/ui-bg_inset-soft_15_2b2922_1x100.png) 50% bottom repeat-x; opacity: .90;filter:Alpha(Opacity=90); }
+#popupcal .ui-widget-shadow { margin: -12px 0 0 -12px; padding: 12px; background: #cccccc url(/site/provider/siteprovider/danielplan.com/templates/The%20Daniel%20Plan/south-street/images/ui-bg_highlight-hard_95_cccccc_1x100.png) 50% top repeat-x; opacity: .20;filter:Alpha(Opacity=20); -moz-border-radius: 10px; -khtml-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; }
+#popupcal .ui-resizable { position: relative;}
+#popupcal .ui-resizable-handle { position: absolute;font-size: 0.1px;z-index: 99999; display: block; }
+#popupcal .ui-resizable-disabled .ui-resizable-handle,#popupcal .ui-resizable-autohide .ui-resizable-handle { display: none; }
+#popupcal .ui-resizable-n { cursor: n-resize; height: 7px; width: 100%; top: -5px; left: 0; }
+#popupcal .ui-resizable-s { cursor: s-resize; height: 7px; width: 100%; bottom: -5px; left: 0; }
+#popupcal .ui-resizable-e { cursor: e-resize; width: 7px; right: -5px; top: 0; height: 100%; }
+#popupcal .ui-resizable-w { cursor: w-resize; width: 7px; left: -5px; top: 0; height: 100%; }
+#popupcal .ui-resizable-se { cursor: se-resize; width: 12px; height: 12px; right: 1px; bottom: 1px; }
+#popupcal .ui-resizable-sw { cursor: sw-resize; width: 9px; height: 9px; left: -5px; bottom: -5px; }
+#popupcal .ui-resizable-nw { cursor: nw-resize; width: 9px; height: 9px; left: -5px; top: -5px; }
+#popupcal .ui-resizable-ne { cursor: ne-resize; width: 9px; height: 9px; right: -5px; top: -5px;}
+#popupcal .ui-selectable-helper { position: absolute; z-index: 100; border:1px dotted black; }
+#popupcal .ui-accordion { width: 100%; }
+#popupcal .ui-accordion .ui-accordion-header { cursor: pointer; position: relative; margin-top: 1px; zoom: 1; }
+#popupcal .ui-accordion .ui-accordion-li-fix { display: inline; }
+#popupcal .ui-accordion .ui-accordion-header-active { border-bottom: 0 !important; }
+#popupcal .ui-accordion .ui-accordion-header a { display: block; font-size: 1em; padding: .5em .5em .5em .7em; }
+#popupcal .ui-accordion-icons .ui-accordion-header a { padding-left: 2.2em; }
+#popupcal .ui-accordion .ui-accordion-header .ui-icon { position: absolute; left: .5em; top: 50%; margin-top: -8px; }
+#popupcal .ui-accordion .ui-accordion-content { padding: 1em 2.2em; border-top: 0; margin-top: -2px; position: relative; top: 1px; margin-bottom: 2px; overflow: auto; display: none; zoom: 1; }
+#popupcal .ui-accordion .ui-accordion-content-active { display: block; }
+#popupcal .ui-autocomplete { position: absolute; cursor: default; }	
+#popupcal .ui-menu { list-style:none;padding: 2px;margin: 0;display:block; float: left;}
+#popupcal .ui-menu .ui-menu {margin-top: -3px;}
+#popupcal .ui-menu .ui-menu-item {margin:0;padding: 0;zoom: 1;float: left;clear: left;width: 100%;}
+#popupcal .ui-menu .ui-menu-item a {text-decoration:none;display:block;padding:.2em .4em;line-height:1.5;zoom:1;}
+#popupcal .ui-menu .ui-menu-item a.ui-state-hover,
+#popupcal .ui-menu .ui-menu-item a.ui-state-active {font-weight: normal;margin: -1px;}
+#popupcal .ui-button { display: inline-block; position: relative; padding: 0; margin-right: .1em; text-decoration: none !important; cursor: pointer; text-align: center; zoom: 1; overflow: visible; } /* the overflow property removes extra width in IE */
+#popupcal .ui-button-icon-only { width: 2.2em; }
+#popupcal button.ui-button-icon-only { width: 2.4em; } 
+#popupcal .ui-button-icons-only { width: 3.4em; } 
+#popupcal button.ui-button-icons-only { width: 3.7em; } 
+#popupcal .ui-button .ui-button-text { display: block; line-height: 1.4;  }
+#popupcal .ui-button-text-only .ui-button-text { padding: .4em 1em; }
+#popupcal .ui-button-icon-only .ui-button-text,#popupcal .ui-button-icons-only .ui-button-text { padding: .4em; text-indent: -9999999px; }
+#popupcal .ui-button-text-icon-primary .ui-button-text,#popupcal .ui-button-text-icons .ui-button-text { padding: .4em 1em .4em 2.1em; }
+#popupcal .ui-button-text-icon-secondary .ui-button-text,#popupcal .ui-button-text-icons .ui-button-text { padding: .4em 2.1em .4em 1em; }
+#popupcal .ui-button-text-icons .ui-button-text { padding-left: 2.1em; padding-right: 2.1em; }
+#popupcal input.ui-button { padding: .4em 1em; }
+#popupcal .ui-button-icon-only .ui-icon,#popupcal .ui-button-text-icon-primary .ui-icon,#popupcal .ui-button-text-icon-secondary .ui-icon,#popupcal .ui-button-text-icons .ui-icon,#popupcal .ui-button-icons-only .ui-icon { position: absolute; top: 50%; margin-top: -8px; }
+#popupcal .ui-button-icon-only .ui-icon { left: 50%; margin-left: -8px; }
+#popupcal .ui-button-text-icon-primary .ui-button-icon-primary,#popupcal .ui-button-text-icons .ui-button-icon-primary,#popupcal .ui-button-icons-only .ui-button-icon-primary { left: .5em; }
+#popupcal .ui-button-text-icon-secondary .ui-button-icon-secondary,#popupcal .ui-button-text-icons .ui-button-icon-secondary,#popupcal .ui-button-icons-only .ui-button-icon-secondary { right: .5em; }
+#popupcal .ui-button-text-icons .ui-button-icon-secondary,#popupcal .ui-button-icons-only .ui-button-icon-secondary { right: .5em; }
+#popupcal .ui-buttonset { margin-right: 7px; }
+#popupcal .ui-buttonset .ui-button { margin-left: 0; margin-right: -.3em; }
+#popupcal button.ui-button::-moz-focus-inner { border: 0; padding: 0; }
+#popupcal .ui-dialog { position: absolute; padding: .2em; width: 300px; overflow: hidden; }
+#popupcal .ui-dialog .ui-dialog-titlebar { padding: .4em 1em; position: relative;  }
+#popupcal .ui-dialog .ui-dialog-title { float: left; margin: .1em 16px .1em 0; } 
+#popupcal .ui-dialog .ui-dialog-titlebar-close { position: absolute; right: .3em; top: 50%; width: 19px; margin: -10px 0 0 0; padding: 1px; height: 18px; }
+#popupcal .ui-dialog .ui-dialog-titlebar-close span { display: block; margin: 1px; }
+#popupcal .ui-dialog .ui-dialog-titlebar-close:hover,#popupcal .ui-dialog .ui-dialog-titlebar-close:focus { padding: 0; }
+#popupcal .ui-dialog .ui-dialog-content { position: relative; border: 0; padding: .5em 1em; background: none; overflow: auto; zoom: 1; }
+#popupcal .ui-dialog .ui-dialog-buttonpane { text-align: left; border-width: 1px 0 0 0; background-image: none; margin: .5em 0 0 0; padding: .3em 1em .5em .4em; }
+#popupcal .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset { float: right; }
+#popupcal .ui-dialog .ui-dialog-buttonpane button { margin: .5em .4em .5em 0; cursor: pointer; }
+#popupcal .ui-dialog .ui-resizable-se { width: 14px; height: 14px; right: 3px; bottom: 3px; }
+#popupcal .ui-draggable .ui-dialog-titlebar { cursor: move; }
+#popupcal .ui-slider { position: relative; text-align: left; }
+#popupcal .ui-slider .ui-slider-handle { position: absolute; z-index: 2; width: 1.2em; height: 1.2em; cursor: default; }
+#popupcal .ui-slider .ui-slider-range { position: absolute; z-index: 1; font-size: .7em; display: block; border: 0; background-position: 0 0; }
+#popupcal .ui-slider-horizontal { height: .8em; }
+#popupcal .ui-slider-horizontal .ui-slider-handle { top: -.3em; margin-left: -.6em; }
+#popupcal .ui-slider-horizontal .ui-slider-range { top: 0; height: 100%; }
+#popupcal .ui-slider-horizontal .ui-slider-range-min { left: 0; }
+#popupcal .ui-slider-horizontal .ui-slider-range-max { right: 0; }
+#popupcal .ui-slider-vertical { width: .8em; height: 100px; }
+#popupcal .ui-slider-vertical .ui-slider-handle { left: -.3em; margin-left: 0; margin-bottom: -.6em; }
+#popupcal .ui-slider-vertical .ui-slider-range { left: 0; width: 100%; }
+#popupcal .ui-slider-vertical .ui-slider-range-min { bottom: 0; }
+#popupcal .ui-slider-vertical .ui-slider-range-max { top: 0; }
+#popupcal .ui-tabs { position: relative; padding: .2em; zoom: 1; }
+#popupcal .ui-tabs .ui-tabs-nav { margin: 0; padding: .2em .2em 0; }
+#popupcal .ui-tabs .ui-tabs-nav li { list-style: none; float: left; position: relative; top: 1px; margin: 0 .2em 1px 0; border-bottom: 0 !important; padding: 0; white-space: nowrap; }
+#popupcal .ui-tabs .ui-tabs-nav li a { float: left; padding: .5em 1em; text-decoration: none; }
+#popupcal .ui-tabs .ui-tabs-nav li.ui-tabs-selected { margin-bottom: 0; padding-bottom: 1px; }
+#popupcal .ui-tabs .ui-tabs-nav li.ui-tabs-selected a,#popupcal .ui-tabs .ui-tabs-nav li.ui-state-disabled a,#popupcal .ui-tabs .ui-tabs-nav li.ui-state-processing a { cursor: text; }
+#popupcal .ui-tabs .ui-tabs-nav li a,#popupcal .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a { cursor: pointer; }
+#popupcal .ui-tabs .ui-tabs-panel { display: block; border-width: 0; padding: 1em 1.4em; background: none; }
+#popupcal .ui-tabs .ui-tabs-hide { display: none !important; }
+#popupcal .ui-datepicker { width: 17em; padding: .2em .2em 0; display: none; }
+#popupcal .ui-datepicker .ui-datepicker-header { position:relative; padding:.2em 0; }
+#popupcal .ui-datepicker .ui-datepicker-prev,#popupcal .ui-datepicker .ui-datepicker-next { position:absolute; top: 2px; width: 1.8em; height: 1.8em; }
+#popupcal .ui-datepicker .ui-datepicker-prev-hover,#popupcal .ui-datepicker .ui-datepicker-next-hover { top: 1px; }
+#popupcal .ui-datepicker .ui-datepicker-prev { left:2px; }
+#popupcal .ui-datepicker .ui-datepicker-next { right:2px; }
+#popupcal .ui-datepicker .ui-datepicker-prev-hover { left:1px; }
+#popupcal .ui-datepicker .ui-datepicker-next-hover { right:1px; }
+#popupcal .ui-datepicker .ui-datepicker-prev span,#popupcal .ui-datepicker .ui-datepicker-next span { display: block; position: absolute; left: 50%; margin-left: -8px; top: 50%; margin-top: -8px;  }
+#popupcal .ui-datepicker .ui-datepicker-title { margin: 0 2.3em; line-height: 1.8em; text-align: center; }
+#popupcal .ui-datepicker .ui-datepicker-title select { font-size:1em; margin:1px 0; }
+#popupcal .ui-datepicker select.ui-datepicker-month-year {width: 100%;}
+#popupcal .ui-datepicker select.ui-datepicker-month, 
+#popupcal .ui-datepicker select.ui-datepicker-year { width: 49%;}
+#popupcal .ui-datepicker table {width: 100%; font-size: .9em; border-collapse: collapse; margin:0 0 .4em; }
+#popupcal .ui-datepicker th { padding: .7em .3em; text-align: center; font-weight: bold; border: 0;  }
+#popupcal .ui-datepicker td { border: 0; padding: 1px; }
+#popupcal .ui-datepicker td span,#popupcal .ui-datepicker td a { display: block; padding: .2em; text-align: right; text-decoration: none; }
+#popupcal .ui-datepicker .ui-datepicker-buttonpane { background-image: none; margin: .7em 0 0 0; padding:0 .2em; border-left: 0; border-right: 0; border-bottom: 0; }
+#popupcal .ui-datepicker .ui-datepicker-buttonpane button { float: right; margin: .5em .2em .4em; cursor: pointer; padding: .2em .6em .3em .6em; width:auto; overflow:visible; }
+#popupcal .ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current { float:left; }
+#popupcal .ui-datepicker.ui-datepicker-multi { width:auto; }
+#popupcal .ui-datepicker-multi .ui-datepicker-group { float:left; }
+#popupcal .ui-datepicker-multi .ui-datepicker-group table { width:95%; margin:0 auto .4em; }
+#popupcal .ui-datepicker-multi-2 .ui-datepicker-group { width:50%; }
+#popupcal .ui-datepicker-multi-3 .ui-datepicker-group { width:33.3%; }
+#popupcal .ui-datepicker-multi-4 .ui-datepicker-group { width:25%; }
+#popupcal .ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header { border-left-width:0; }
+#popupcal .ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header { border-left-width:0; }
+#popupcal .ui-datepicker-multi .ui-datepicker-buttonpane { clear:left; }
+#popupcal .ui-datepicker-row-break { clear:both; width:100%; font-size:0em; }
+#popupcal .ui-datepicker-rtl { direction: rtl; }
+#popupcal .ui-datepicker-rtl .ui-datepicker-prev { right: 2px; left: auto; }
+#popupcal .ui-datepicker-rtl .ui-datepicker-next { left: 2px; right: auto; }
+#popupcal .ui-datepicker-rtl .ui-datepicker-prev:hover { right: 1px; left: auto; }
+#popupcal .ui-datepicker-rtl .ui-datepicker-next:hover { left: 1px; right: auto; }
+#popupcal .ui-datepicker-rtl .ui-datepicker-buttonpane { clear:right; }
+#popupcal .ui-datepicker-rtl .ui-datepicker-buttonpane button { float: left; }
+#popupcal .ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current { float:right; }
+#popupcal .ui-datepicker-rtl .ui-datepicker-group { float:right; }
+#popupcal .ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header { border-right-width:0; border-left-width:1px; }
+#popupcal .ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header { border-right-width:0; border-left-width:1px; }
+#popupcal .ui-progressbar { height:2em; text-align: left; }
+#popupcal .ui-progressbar .ui-progressbar-value {margin: -1px; height:100%; }
