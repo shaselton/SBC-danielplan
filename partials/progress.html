@@ -7,41 +7,39 @@
 		<div class="group-title">Day</div>
 		<div class='item'>
 			<label>Date
-				<input type='text' ng-model='user.date' name='date' placeholder='MM/DD/YYYY' required />
+				<input type='text' class="date" ng-model='user.date' name='date' placeholder='MM/DD/YYYY' required />
 			</label>
 		</div>
 
 		<div class="group-title">Food</div>
 		<div class='item'>
-			<label>Fruits/Vegs
+			<label>Fruits/Vegs</label>
 				<span>{{user.dailyFruits}}</span>
 				<button ng-click="minus('dailyFruits')">-</button>
 				<button ng-click="add('dailyFruits')">+</button>
-			</label>
+			
 		</div>
 
 		<div class='item'>
-			<label>Lean Protein
+			<label>Lean Protein</label>
 				<span>{{user.dailyLeanProtein}}</span>
 				<button ng-click="minus('dailyLeanProtein')">-</button>
 				<button ng-click="add('dailyLeanProtein')">+</button>
-			</label>
+			
 		</div>
 
 		<div class='item'>
-			<label>Whole Grains
+			<label>Whole Grains</label>
 				<span>{{user.dailyWholeGrains}}</span>
 				<button ng-click="minus('dailyWholeGrains')">-</button>
 				<button ng-click="add('dailyWholeGrains')">+</button>
-			</label>
 		</div>
 
 		<div class='item'>
-			<label>Other
+			<label>Other</label>
 				<span>{{user.dailyOther}}</span>
 				<button ng-click="minus('dailyOther')">-</button>
 				<button ng-click="add('dailyOther')">+</button>
-			</label>
 		</div>
 
 		<div class="group-title">Faith</div>
@@ -52,28 +50,25 @@
 
 		<div class="group-title">Fitness</div>
 		<div class='item'>
-			<label>Weight
+			<label>Weight</label>
 				<span>{{user.dailyWeight}}</span>
 				<button ng-click="minus('dailyWeight')">-</button>
 				<button ng-click="add('dailyWeight')">+</button>
-			</label>
 		</div>
 
 
 		<div class='item'>
-			<label>Aerobic Exercise
+			<label>Aerobic Exercise</label>
 				<span>{{user.dailyAerobic}}</span>
 				<button ng-click="minus('dailyAerobic')">-</button>
 				<button ng-click="add('dailyAerobic')">+</button>
-			</label>
 		</div>
 
 		<div class='item'>
-			<label>Strength Exercise
+			<label>Strength Exercise</label>
 				<span>{{user.dailyStrength}}</span>
 				<button ng-click="minus('dailyStrength')">-</button>
 				<button ng-click="add('dailyStrength')">+</button>
-			</label>
 		</div>
 
 		<div class='item'>
@@ -88,11 +83,10 @@
 		</div>
 
 		<div class='item'>
-			<label>Hours of Sleep
+			<label>Hours of Sleep</label>
 				<span>{{user.dailySleep}}</span>
 				<button ng-click="minus('dailySleep')">-</button>
 				<button ng-click="add('dailySleep')">+</button>
-			</label>
 		</div>
 
 		<div class="group-title">Note</div>
