@@ -55,19 +55,19 @@
 		<div class="group-title">Fitness Profile - Weight</div>
 		<div class='item'>
 			<label>Current Wight
-				<input type='input' ng-model='user.currentWeight' name='currentWeight' required />
+				<input type='number' ng-model='user.currentWeight' name='currentWeight' placeholder="lbs" min="50" max="500" required />
 			</label>
 		</div>
 
 		<div class='item'>
 			<label>Goal Weight
-				<input type='input' ng-model='user.goalWeight' name='goalWeight' required />
+				<input type='number' ng-model='user.goalWeight' name='goalWeight' placeholder="lbs" min="50" max="500" required />
 			</label>
 		</div>
 
 		<div class='item'>
 			<label>Current Waist Size
-				<input type='input' ng-model='user.waistSize' name='waistSize' required />
+				<input type='number' ng-model='user.waistSize' min="0" max="100" name='waistSize' />
 			</label>
 		</div>
 
@@ -88,16 +88,19 @@
 
 		<div class='item'>
 			<label>Height
-				<input type='input' ng-model='user.heightFeet' name='heightFeet' required />
+				<input type='number' ng-model='user.heightFeet' name='heightFeet' min="3" max="10" placeholder="feet" required />
 			</label>
 			<label>Inches
-				<input type='input' ng-model='user.heightInches' name='heightInches' required />
+				<input type='number' ng-model='user.heightInches' name='heightInches' min="0" max="11" placeholder="inches" required />
 			</label>
 		</div>
 
 		<div class='item'>
 			<label>Gender
-				<input type='input' ng-model='user.gender' name='gender' required/>
+				<select ng-model="user.gender" name='gender' required>
+					<option value='m'>Male</option>
+					<option value='f'>Female</option>
+				</select>
 			</label>
 		</div>
 
@@ -110,17 +113,20 @@
 		<div class="group-title">Faith</div>
 		<div class='item'>
 			<label>Faith
+				 <div star-rating rating-value="user.faith" max="5" on-rating-selected="saveRatingToServer(rating)"></div>
 			</label>
 		</div>
 
 		<div class="group-title">Focus</div>
 		<div class='item'>
 			<label>Focus
+				<div star-rating rating-value="user.focus" max="5" on-rating-selected="saveRatingToServer(rating)"></div>
 			</label>
 		</div>
 
 		<div class='item'>
 			<label>Energy
+				<div star-rating rating-value="user.energy" max="5" on-rating-selected="saveRatingToServer(rating)"></div>
 			</label>
 		</div>
 
